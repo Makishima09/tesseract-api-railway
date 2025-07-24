@@ -1,0 +1,33 @@
+Firualis #5471
+Application ID
+1060134545162240022
+
+Public key
+6abb4263c125d415418c86b2a8b05ab5e26b65a313a616178485109d2a176c6f
+
+Token
+MTA2MDEzNDU0NTE2MjI0MDAyMg.GacetJ.o_e8vgxW3ZAUmScQbmu4MvYP8t4XeQ_IHPlSZs
+update 2023
+MTA2MDEzNDU0NTE2MjI0MDAyMg.GeGp4y.UDmnkVbb5sqK9ztEE-yZaqBykZKFChxfoFdVF0
+
+
+Comandos
+
+node index.js
+	-> bot pasa a estar activo y online, y listo para ampliarlo con nuevas funciones
+
+node deploy-commands.js
+	-> una vez añadidos los slash commands se ejecuta este comando para registrarlos en el server específico y se actualiza la lista
+	 y el directorio actual
+
+
+MODIFICAR
+index.js	24 - ID server
+config.js	4  - ID server
+
+C:\Users\Miguel\Documents\Code\Firualis_bot\node_modules\@discordjs\util\dist
+
+function lazy(cb) {
+  let defaultValue;
+  return () => defaultValue !== undefined ? defaultValue : (defaultValue = cb());
+}
